@@ -27,6 +27,13 @@
       "descr": "Deadly dagger",
       "tel": "66 6666-6666",
       "email": "theonefrombellow@beyond.com"
+    },
+    {
+      "id": 5,
+      "url": "https://static.wixstatic.com/media/d73c88_f1b02b90eb014b7a98204861379b0f8f~mv2.jpg/v1/fill/w_584,h_814,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/d73c88_f1b02b90eb014b7a98204861379b0f8f~mv2.jpg",
+      "descr": "cute doggy",
+      "tel": "22 2222-2223",
+      "email": "doggos@animals.com"
     }
   ]
 }
