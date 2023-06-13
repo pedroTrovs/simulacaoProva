@@ -21,3 +21,13 @@
     </form>
   </div>
 </div>
+<h2 class="m-5">Anúncios já cadastrados</h2>
+
+<div class="card" style="width: 18rem;" *ngFor="let ad of ads">
+  <img class="card-img-top" src="{{ad.url}}" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Anúncio {{ad.id}}: {{ad.descr}}</h5>
+    <p class="card-text">Tel: {{ad.tel}}</p>
+    <p class="card-text">Email: {{ad.email}}</p>
+  </div>
+</div>

@@ -14,4 +14,9 @@ export class ManageAdsService {
   addAd(obj : Ad): Observable<Ad> {
     return this.http.post<Ad>(this.url, obj);
   }
+
+  getAds(): Observable<Ad[]> {
+
+    return this.http.get<Ad[]>(this.url);
+  }
 }
