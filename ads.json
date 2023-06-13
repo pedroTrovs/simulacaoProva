@@ -6,6 +6,13 @@
       "descr": "guitar",
       "tel": "50 56799-0000",
       "email": "adlegal@world.com"
+    },
+    {
+      "id": 2,
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxwzdCqyElmF4mEhpraxswZxCYL_11WPOqew&usqp=CAU",
+      "descr": "Basic trumpet",
+      "tel": "66 7979-0001",
+      "email": "trumpets@earth.com"
     }
   ]
 }

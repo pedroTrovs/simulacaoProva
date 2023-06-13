@@ -1,1 +1,23 @@
-<p>ad works!</p>
+<div class="row">
+  <div class="col-8 m-auto">
+    <form [formGroup]="formGroupAd">
+      <div class="mb-3">
+        <label for="url" class="form-label">Imagem: </label>
+        <input type="url" formControlName="url" class="form-control" id="url" placeholder="https://...">
+      </div>
+      <div class="mb-3">
+        <label for="descr" class="form-label">Descrição: </label>
+        <input type="text" formControlName="descr" class="form-control" id="descr" placeholder="descrição do anúncio">
+      </div>
+      <div class="mb-3">
+        <label for="tel" class="form-label">Telefone: </label>
+        <input type="tel" formControlName="tel" class="form-control" id="tel" placeholder="00 0000-0000">
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Email: </label>
+        <input type="email" formControlName="email" class="form-control" id="email" placeholder="example@something.com">
+      </div>
+      <button class="btn btn-primary" (click)="save()">Salvar</button>
+    </form>
+  </div>
+</div>

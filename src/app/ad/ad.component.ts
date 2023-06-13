@@ -20,4 +20,13 @@ export class AdComponent {
       email : ['']
     });
   }
+
+  save()
+  {
+    this.service.addAd(this.formGroupAd.value).subscribe({
+      next: data => {
+        this.formGroupAd.reset();
+      }
+    });
+  }
 }

@@ -11,4 +11,7 @@ export class ManageAdsService {
 
   constructor(private http: HttpClient) { }
 
+  addAd(obj : Ad): Observable<Ad> {
+    return this.http.post<Ad>(this.url, obj);
+  }
 }
